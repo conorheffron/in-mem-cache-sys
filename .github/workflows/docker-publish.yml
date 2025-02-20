@@ -43,8 +43,7 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn -B package --file pom.xml
-               
-               - name: Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       # Install the cosign tool except on PR
