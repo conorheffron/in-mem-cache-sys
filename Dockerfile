@@ -1,6 +1,5 @@
 FROM eclipse-temurin:22-jdk
-
-COPY target *.jar app.jar
-RUN sh -c 'touch /app.jar'
-
-RUN java -jar /app.jar
+#FROM anapsix/alpine-java
+MAINTAINER myNAME
+COPY app-1.0-SNAPSHOT.jar /home/app.jar
+CMD ["java","-jar","/home/app.jar"]
