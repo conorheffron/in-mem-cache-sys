@@ -6,7 +6,7 @@
 
     <groupId>com.coderpad.app</groupId>
     <artifactId>app</artifactId>
-    <version>1.0.1-RELEASE</version>
+    <version>1.0.2-RELEASE</version>
 
     <name>app</name>
     <!-- FIXME change it to the project's website -->
