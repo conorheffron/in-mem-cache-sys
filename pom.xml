@@ -8,10 +8,17 @@
     <artifactId>app</artifactId>
     <version>1.0.2-RELEASE</version>
 
-    <name>app</name>
-    <!-- FIXME change it to the project's website -->
-<!--     <url>http://www.example.com</url> -->
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+	   <name>GitHub conorheffron Apache Maven Packages</name>
+	   <url>https://maven.pkg.github.com/conorheffron/in-mem-cache-sys</url>
+	</repository>
+     </distributionManagement>
+         
+    <name>in-mem-cache-sys</name>
+    <description>In-memory Cache System</description>
+         
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>22</maven.compiler.release>
