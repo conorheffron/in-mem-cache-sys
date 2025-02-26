@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.coderpad.app</groupId>
+    <groupId>com.in.mem.cache.sys</groupId>
     <artifactId>app</artifactId>
-    <version>1.0.2-RELEASE</version>
+    <version>1.0.3-RELEASE</version>
 
     <distributionManagement>
         <repository>
@@ -28,13 +28,13 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.12.0-RC2</version>
+            <version>5.12.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>5.11.0</version>
+            <version>5.15.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -60,15 +60,15 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.11.0</version>
+                    <version>3.14.0</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.1.2</version>
+                    <version>3.5.2</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <version>3.3.0</version>
+                    <version>3.4.2</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-install-plugin</artifactId>
@@ -83,7 +83,7 @@
                     <artifactId>exec-maven-plugin</artifactId>
                     <version>3.1.0</version>
                     <configuration>
-                        <mainClass>com.coderpad.app.TargetingSystem</mainClass>
+                        <mainClass>com.in.mem.cache.sys.TargetingSystem</mainClass>
                     </configuration>
                 </plugin>
             </plugins>
