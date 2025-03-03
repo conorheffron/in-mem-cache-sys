@@ -6,7 +6,7 @@
 
     <groupId>com.in.mem.cache.sys</groupId>
     <artifactId>app</artifactId>
-    <version>1.0.3-RELEASE</version>
+    <version>1.0.4-RELEASE</version>
 
     <distributionManagement>
         <repository>
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>5.15.2</version>
+            <version>5.16.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -72,16 +72,16 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-install-plugin</artifactId>
-                    <version>3.1.3</version>
+                    <version>3.1.4</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-deploy-plugin</artifactId>
-                    <version>3.1.3</version>
+                    <version>3.1.4</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>exec-maven-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.5.0</version>
                     <configuration>
                         <mainClass>com.in.mem.cache.sys.TargetingSystem</mainClass>
                     </configuration>
