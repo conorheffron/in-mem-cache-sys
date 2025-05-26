@@ -6,7 +6,7 @@
 
     <groupId>com.in.mem.cache.sys</groupId>
     <artifactId>app</artifactId>
-    <version>1.0.8-RELEASE</version>
+    <version>1.0.9-RELEASE</version>
 
     <distributionManagement>
         <repository>
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>5.17.0</version>
+            <version>5.18.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
