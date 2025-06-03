@@ -6,7 +6,7 @@
 
     <groupId>com.in.mem.cache.sys</groupId>
     <artifactId>app</artifactId>
-    <version>1.0.9-RELEASE</version>
+    <version>1.1.1-RELEASE</version>
 
     <distributionManagement>
         <repository>
@@ -81,7 +81,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>exec-maven-plugin</artifactId>
-                    <version>3.5.0</version>
+                    <version>3.5.1</version>
                     <configuration>
                         <mainClass>com.in.mem.cache.sys.TargetingSystem</mainClass>
                     </configuration>
