@@ -6,7 +6,7 @@
 
     <groupId>com.in.mem.cache.sys</groupId>
     <artifactId>app</artifactId>
-    <version>1.2.4-RELEASE</version>
+    <version>1.2.5-RELEASE</version>
     <distributionManagement>
         <repository>
             <id>github</id>
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>6.0.0</version>
+            <version>6.0.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
